@@ -23,54 +23,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
+      <file leaf-file-name="page-home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="0.0" vertical-offset="7616" max-vertical-offset="16711">
+            <state line="2" column="76" selection-start="167" selection-end="167" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lists-our-service.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php">
+      <file leaf-file-name="section-home-main-slider.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-home-main-slider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="59" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+            <state line="9" column="18" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page-section.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
+      <file leaf-file-name="lists.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
-              <folding>
-                <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
-                <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
-                <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
-                <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
-                <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
-                <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
-                <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lists-we-are-builder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="20" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
+            <state line="9" column="22" selection-start="0" selection-end="355" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section-we-are-builder.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php">
+      <file leaf-file-name="lists-home-main-slider.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-home-main-slider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="48" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
+            <state line="26" column="22" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-10.076923" vertical-offset="180" max-vertical-offset="782">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about-us.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Downloads/tripleZero/template/about-us.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="174" column="26" selection-start="10249" selection-end="10335" vertical-scroll-proportion="0.8330309" vertical-offset="2499" max-vertical-offset="7497">
               <folding />
             </state>
           </provider>
@@ -79,43 +71,43 @@
       <file leaf-file-name="lists-our-team.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+            <state line="6" column="16" selection-start="290" selection-end="420" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lists-testimonials.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php">
+      <file leaf-file-name="section-who-we-are.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-who-we-are.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="510">
+            <state line="15" column="22" selection-start="650" selection-end="650" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lists-client.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-client.php">
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="25" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="374">
+            <state line="17" column="0" selection-start="0" selection-end="956" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section-we-are-since-1975.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php">
+      <file leaf-file-name="page-about-us.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-about-us.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="165" selection-start="262" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+            <state line="23" column="26" selection-start="939" selection-end="939" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="section-our-service.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
+      <file leaf-file-name="section.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
+            <state line="2" column="8" selection-start="0" selection-end="493" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
@@ -132,7 +124,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/builder/header.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/builder/page-home.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/lists.php" />
@@ -140,7 +131,6 @@
         <option value="$PROJECT_DIR$/wp-content/themes/builder/section-our-team.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/section-testimonials.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/section-client.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php" />
@@ -149,6 +139,12 @@
         <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-home-main-slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-home-main-slider.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/page-about-us.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-who-we-are.php" />
       </list>
     </option>
   </component>
@@ -369,7 +365,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -390,6 +386,26 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -426,13 +442,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
           <folding>
-            <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
-            <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
-            <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
-            <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
           </folding>
         </state>
       </provider>
@@ -482,20 +498,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="65" selection-start="5005" selection-end="5005" vertical-scroll-proportion="-15.038462" vertical-offset="1020" max-vertical-offset="1955">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="0" selection-start="6937" selection-end="6937" vertical-scroll-proportion="-16.76923" vertical-offset="1893" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>
@@ -561,23 +563,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="0" selection-end="493" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-team.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="22" selection-start="0" selection-end="355" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
@@ -617,31 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
-          <folding>
-            <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
-            <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
-            <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
-            <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
-            <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="48" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="0.0" vertical-offset="7616" max-vertical-offset="16711">
           <folding />
         </state>
       </provider>
@@ -667,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="20" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="510">
@@ -688,9 +647,110 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="98" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-9.807693" vertical-offset="255" max-vertical-offset="1955">
+          <folding>
+            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
+        <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="31" selection-start="4305" selection-end="4305" vertical-scroll-proportion="-3.8846154" vertical-offset="2076" max-vertical-offset="5661">
+          <folding>
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="DROP TABLE I..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1502954215438" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="0" selection-end="355" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="-65.38461" vertical-offset="7004" max-vertical-offset="16711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-home-main-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="423" selection-end="423" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="76" selection-start="167" selection-end="167" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-home-main-slider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-10.076923" vertical-offset="180" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="0" selection-end="956" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-about-us.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="26" selection-start="939" selection-end="939" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="0" selection-end="493" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="16" selection-start="290" selection-end="420" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-who-we-are.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="22" selection-start="650" selection-end="650" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tripleZero/template/about-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="174" column="26" selection-start="10249" selection-end="10335" vertical-scroll-proportion="0.8330309" vertical-offset="2499" max-vertical-offset="7497">
           <folding />
         </state>
       </provider>

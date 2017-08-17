@@ -137,6 +137,21 @@ function shortcode_pagesection( $atts ) {
 add_shortcode( 'pagesection', 'shortcode_pagesection' );
 
 
+function action_pagesection( $a ) {
+    $query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
+    $templates = array(
+        'section-' . $a['name'] . '.php',
+        'section.php'
+    );
+    if (locate_template($templates) != '') {
+        include(locate_template($templates));
+    } else {
+        include(untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/templates/section.php');
+    }
+}
+add_action( 'pagesection', 'action_pagesection' );
+
+
 function modify_list_row_actions( $actions, $post ) {
 	if($post->post_type == 'section'){
 		// Build your links URL.
