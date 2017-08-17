@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b66ee762-143f-4cb6-b90f-a8436b2b939d" name="Default" comment="" />
+    <ignored path="sample_wordpress.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="sample_wordpress" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="0.0" vertical-offset="7616" max-vertical-offset="16711">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists-our-service.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="59" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page-section.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
+              <folding>
+                <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
+                <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
+                <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
+                <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
+                <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
+                <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
+                <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists-we-are-builder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section-we-are-builder.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="48" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists-our-team.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists-testimonials.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="20" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lists-client.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="374">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section-we-are-since-1975.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="165" selection-start="262" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="section-our-service.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/lists.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-our-team.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-testimonials.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-client.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-client.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="builder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page-section" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sample_wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page-section" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="preferences.sourceCode" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp2\htdocs\sample_wordpress\wp-content\themes\builder" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b66ee762-143f-4cb6-b90f-a8436b2b939d" name="Default" comment="" />
+      <created>1502937346008</created>
+      <updated>1502937346008</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="0.0" vertical-offset="7616" max-vertical-offset="16711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
+          <folding>
+            <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
+            <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="165" selection-start="262" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="65" selection-start="5005" selection-end="5005" vertical-scroll-proportion="-15.038462" vertical-offset="1020" max-vertical-offset="1955">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/page-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="0" selection-start="6937" selection-end="6937" vertical-scroll-proportion="-16.76923" vertical-offset="1893" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/addons/triple_zero/anomaly/triplezero-theme/resources/views/pyro_lists/1/items.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="51" selection-start="834" selection-end="834" vertical-scroll-proportion="0.123411976" vertical-offset="255" max-vertical-offset="833" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/addons/triple_zero/anomaly/triplezero-theme/resources/views/pyro_lists/4/items.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="616" selection-end="616" vertical-scroll-proportion="0.4219858" vertical-offset="0" max-vertical-offset="765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/addons/triple_zero/anomaly/triplezero-theme/resources/views/pyro_lists/5/items.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="25" selection-start="631" selection-end="631" vertical-scroll-proportion="0.45212767" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/5/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/6/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/7/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="577" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/1/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/2/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="258" selection-end="258" vertical-scroll-proportion="0.25952813" vertical-offset="10" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/3/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6188748" vertical-offset="341" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/storage/streams/triple_zero/pages/types/4/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="590" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../triplezero-pyro/addons/triple_zero/anomaly/triplezero-theme/resources/views/layouts/home.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="23" selection-start="3226" selection-end="3263" vertical-scroll-proportion="-16.346153" vertical-offset="816" max-vertical-offset="5763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="0" selection-end="493" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="280" selection-end="280" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/templates/lists.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="0" selection-end="355" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="18" selection-start="815" selection-end="815" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="331" selection-end="331" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="335" selection-end="335" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="0" selection-start="4732" selection-end="4789" vertical-scroll-proportion="-1.0384616" vertical-offset="2054" max-vertical-offset="6613">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="71" selection-end="71" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/page-section/page-section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="2" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="5491">
+          <folding>
+            <marker date="1502950840388" expanded="true" signature="1121:1481" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502950840388" expanded="true" signature="1642:2008" placeholder="CREATE TABLE..IF..." />
+            <marker date="1502950840388" expanded="true" signature="2165:2211" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="2233:2291" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="2313:2358" placeholder="DROP TABLE I..." />
+            <marker date="1502950840388" expanded="true" signature="5049:5392" placeholder="SELECT * FRO..." />
+            <marker date="1502950840388" expanded="true" signature="8208:8538" placeholder="SELECT * FRO..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="48" selection-start="733" selection-end="733" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/tripleZero/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="512" column="67" selection-start="28509" selection-end="28525" vertical-scroll-proportion="0.0" vertical-offset="7616" max-vertical-offset="16711">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-we-are-since-1975.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="165" selection-start="262" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-our-team.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-testimonials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="20" selection-start="410" selection-end="410" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/lists-we-are-builder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/builder/section-our-service.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="596" selection-end="596" vertical-scroll-proportion="0.39184397" vertical-offset="0" max-vertical-offset="564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
