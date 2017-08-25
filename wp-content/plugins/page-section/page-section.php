@@ -123,8 +123,11 @@ function shortcode_pagesection( $atts ) {
     $a = shortcode_atts( array(
         'name' => ''
     ), $atts );
+    $a['pagename'] = get_post_field( 'post_name', get_post() );
+    apply_filters( 'pagename', $a['pagename'] );
 	$query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
 	$templates = array(
+        'section-' . $a['pagename'] . '-' . $a['name'] . '.php',
 		'section-' . $a['name'] . '.php',
 		'section.php'
 	);
@@ -138,8 +141,10 @@ add_shortcode( 'pagesection', 'shortcode_pagesection' );
 
 
 function action_pagesection( $a ) {
+    $a['pagename'] = get_post_field( 'post_name', get_post() );
     $query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
     $templates = array(
+        'section-' . $a['pagename'] . '-' . $a['name'] . '.php',
         'section-' . $a['name'] . '.php',
         'section.php'
     );
@@ -225,6 +230,7 @@ function render_lists(){
             'orderby' => array( 'menu_order' => 'ASC', 'ID' => 'DESC' )
         )
     );
+    echo $pagename . get_post_field( 'post_name', get_post() );
     $templates = array(
         'lists-' . get_post_field( 'post_name', get_post() ) . '.php',
         'lists.php'

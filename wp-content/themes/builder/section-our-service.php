@@ -1,6 +1,5 @@
 <?php if ( $query->have_posts() ) : ?>
     <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-        <!-- plugin section.php -->
         <section class="our-services style-three">
             <div class="auto-container">
                 <div class="container-box anim-5-all clearfix">

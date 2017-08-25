@@ -1,6 +1,5 @@
 <?php if ( $query->have_posts() ) : ?>
     <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-        <!-- plugin section.php -->
         <!--Our History-->
         <section class="our-history parallax-section text-center" style="background-image:url(<?php echo has_post_thumbnail() ? get_the_post_thumbnail_url() : ''; ?>);">
             <h3><?php the_title(); ?></h3>
