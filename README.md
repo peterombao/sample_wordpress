@@ -1,6 +1,5 @@
-# sample_wordpress
-Sample Wordpress
+# Sample Wordpress
 
-## admin account
+# Admin Account
 email: admin@admin.com <br />
 password: password
