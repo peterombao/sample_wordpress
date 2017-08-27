@@ -66,13 +66,14 @@
                     <h2>Categories</h2>
 
                     <ul>
+						<?php 
+						wp_list_categories(
+							array(
+								'title_li' => ''
+							)
+						); 
+						?>
                         <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Business</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Fashion</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Media</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Region</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Sports</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Photographs</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Kids</a></li>
                     </ul>
 
                 </nav>
@@ -81,13 +82,8 @@
                 <nav class="widget link-list">
                     <h2>Archives</h2>
                     <ul>
+						<?php wp_get_archives(); ?>
                         <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; December 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; November 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; October 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; September 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; August 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; Photographs</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; July 2013</a></li>
                     </ul>
 
                 </nav>
