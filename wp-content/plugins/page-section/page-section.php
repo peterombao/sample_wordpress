@@ -121,13 +121,17 @@ add_action( 'init', 'post_type_list' );
 // [pagesection name="post_name"]
 function shortcode_pagesection( $atts ) {
     $a = shortcode_atts( array(
-        'name' => ''
+        'name' => '',
+		'query' => ''
     ), $atts );
-    $a['pagename'] = get_post_field( 'post_name', get_post() );
-    apply_filters( 'pagename', $a['pagename'] );
-	$query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
+    $pagename = get_post_field( 'post_name', get_post() );
+	if(empty($a['post_type'])){
+		$query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
+	}else{
+		$query = new WP_Query($a);
+	}
 	$templates = array(
-        'section-' . $a['pagename'] . '-' . $a['name'] . '.php',
+        'section-' . $pagename . '-' . $a['name'] . '.php',
 		'section-' . $a['name'] . '.php',
 		'section.php'
 	);
@@ -141,18 +145,22 @@ add_shortcode( 'pagesection', 'shortcode_pagesection' );
 
 
 function action_pagesection( $a ) {
-    $a['pagename'] = get_post_field( 'post_name', get_post() );
-    $query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
-    $templates = array(
-        'section-' . $a['pagename'] . '-' . $a['name'] . '.php',
-        'section-' . $a['name'] . '.php',
-        'section.php'
-    );
-    if (locate_template($templates) != '') {
-        include(locate_template($templates));
-    } else {
-        include(untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/templates/section.php');
-    }
+    $pagename = get_post_field( 'post_name', get_post() );
+	if(empty($a['post_type'])){
+		$query = new WP_Query( array('name' => $a['name'], 'post_type' => 'section') );
+	}else{
+		$query = new WP_Query($a);
+	}
+	$templates = array(
+        'section-' . $pagename . '-' . $a['name'] . '.php',
+		'section-' . $a['name'] . '.php',
+		'section.php'
+	);
+	if (locate_template($templates) != '') {
+		include(locate_template($templates));
+	} else {
+		include(untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/templates/section.php');
+	}
 }
 add_action( 'pagesection', 'action_pagesection' );
 
@@ -230,7 +238,7 @@ function render_lists(){
             'orderby' => array( 'menu_order' => 'ASC', 'ID' => 'DESC' )
         )
     );
-    echo $pagename . get_post_field( 'post_name', get_post() );
+    //echo $pagename . get_post_field( 'post_name', get_post() );
     $templates = array(
         'lists-' . get_post_field( 'post_name', get_post() ) . '.php',
         'lists.php'
