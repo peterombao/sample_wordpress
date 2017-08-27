@@ -15,5 +15,5 @@ UPDATE wp_posts SET post_content = replace(post_content, 'http://www.oldurl', 'h
 UPDATE wp_postmeta SET meta_value = replace(meta_value,'http://www.oldurl','http://www.newurl');
 ```
 5. Sample admin account is: <br />
-**email:** admin@admin.com <br />
-**password:** password
+**Email Address:** admin@admin.com <br />
+**Password:** password
