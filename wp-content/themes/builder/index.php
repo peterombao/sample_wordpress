@@ -33,7 +33,7 @@
                                 <div class="description"><?php the_excerpt(); ?></div>
                                 <div class="info clearfix">
                                     <p class="more pull-right text-right"><a href="<?php the_permalink() ?>">Read More</a></p>
-                                    <p class="date pull-left">posted on <span class="theme-color">21 Feb</span>, 2015</p>
+                                    <p class="date pull-left">posted on <span class="theme-color"><?php the_date('d M, Y'); ?></span></p>
                                 </div>
                             </div>
 
