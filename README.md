@@ -1,6 +1,6 @@
 # sample_wordpress
 Sample Wordpress
 
-admin account
-email: admin@admin.com
+admin account <br />
+email: admin@admin.com <br />
 password: password
