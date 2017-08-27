@@ -33,7 +33,7 @@
                             </div>
 
                             <div class="info clearfix">
-                                <div class="date pull-left">posted on <span class="theme-color">21 Feb</span>, 2015</div>
+                                <div class="date pull-left">posted on <span class="theme-color"><?php the_date('d M, Y'); ?></span></div>
                                 <div class="share pull-right text-right">
 									<a href="#" class="fa fb fa-facebook-f"></a> &ensp; 
 									<a href="#" class="fa fa-twitter twitter"></a> &ensp; 
