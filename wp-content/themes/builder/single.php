@@ -34,13 +34,24 @@
 
                             <div class="info clearfix">
                                 <div class="date pull-left">posted on <span class="theme-color">21 Feb</span>, 2015</div>
-                                <div class="share pull-right text-right"><a href="#" class="fa fb fa-facebook-f"></a> &ensp; <a href="#" class="fa fa-twitter twitter"></a> &ensp; <a href="#" class="fa fa-google-plus google-plus"></a> &ensp; <a href="#" class="fa fa-linkedin linkedin"></a></div>
+                                <div class="share pull-right text-right">
+									<a href="#" class="fa fb fa-facebook-f"></a> &ensp; 
+									<a href="#" class="fa fa-twitter twitter"></a> &ensp; 
+									<a href="#" class="fa fa-google-plus google-plus"></a> &ensp; 
+									<a href="#" class="fa fa-linkedin linkedin"></a>
+								</div>
                             </div>
                         </div>
 
                     </div>
                 </article>
                 <!--Blog Details End-->
+				
+				<?php 
+				if ( comments_open() || get_comments_number() ) :
+					comments_template();
+				endif;
+				?>
 
             <?php endwhile; else : ?>
                 <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
@@ -68,13 +79,14 @@
                     <h2>Categories</h2>
 
                     <ul>
+						<?php 
+						wp_list_categories(
+							array(
+								'title_li' => ''
+							)
+						); 
+						?>
                         <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Business</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Fashion</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Media</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Region</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Sports</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Photographs</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Kids</a></li>
                     </ul>
 
                 </nav>
@@ -83,13 +95,8 @@
                 <nav class="widget link-list">
                     <h2>Archives</h2>
                     <ul>
+						<?php wp_get_archives(); ?>
                         <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; December 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; November 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; October 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; September 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; August 2013</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; Photographs</a></li>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; July 2013</a></li>
                     </ul>
 
                 </nav>
