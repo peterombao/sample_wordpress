@@ -73,7 +73,7 @@
 							)
 						); 
 						?>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Business</a></li>
+                        <!--<li><a href="#"><span class="fa fa-angle-right"></span>&ensp; Business</a></li>-->
                     </ul>
 
                 </nav>
@@ -83,7 +83,7 @@
                     <h2>Archives</h2>
                     <ul>
 						<?php wp_get_archives(); ?>
-                        <li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; December 2013</a></li>
+                        <!--<li><a href="#"><span class="fa fa-angle-right"></span>&ensp;&ensp; December 2013</a></li>-->
                     </ul>
 
                 </nav>
