@@ -1,0 +1,1 @@
+<textarea class="large-text" name="post_content"><?php echo $post->post_content; ?></textarea>

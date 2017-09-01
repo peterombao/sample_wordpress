@@ -135,11 +135,13 @@ function shortcode_pagesection( $atts ) {
 		'section-' . $a['name'] . '.php',
 		'section.php'
 	);
+	ob_start();
 	if (locate_template($templates) != '') {
 		include(locate_template($templates));
 	} else {
 		include(untrailingslashit( plugin_dir_path( __FILE__ ) ) . '/templates/section.php');
 	}
+	return ob_get_clean();
 }
 add_shortcode( 'pagesection', 'shortcode_pagesection' );
 
@@ -345,3 +347,23 @@ function mytheme_enqueue_typekit() {
 }
 
 add_action('add_editor_js', 'mytheme_enqueue_typekit');
+
+
+function custom_columns_section( $column, $post_id ) {
+	switch ( $column ) {
+		case 'shortcode':
+			echo '[pagesection id="' . $post_id . '"]';
+			break;
+	}
+}
+add_action( 'manage_section_posts_custom_column' , 'custom_columns_section', 10, 2 );
+
+
+function set_custom_edit_section_columns($columns) {
+    unset( $columns['date'] );
+    $columns['shortcode'] = 'Shortcode';
+    $columns['date'] = 'Date';
+
+    return $columns;
+}
+add_filter( 'manage_section_posts_columns', 'set_custom_edit_section_columns' );
