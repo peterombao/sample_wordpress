@@ -1,15 +1,6 @@
-<?php if ( $query->have_posts() ) : ?>
-    <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-        <!-- plugin section.php -->
-        <form method="post">
-            <h2><?php the_title(); ?></h2>
-            <?php the_content(); ?>
-        </form>
-    <?php endwhile; ?>
-
-    <?php wp_reset_postdata(); ?>
-<?php else : ?>
-    <section>
-        <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-    </section>
-<?php endif; ?>
+<form method="post" action="http://localhost/wordpress/wp-admin/admin-post.php?action=contact_us">
+	<?php foreach($contact_form_elements as $contact_form_element): ?>
+		<?php do_action('ppo_form_element', $contact_form_element); ?>
+	<?php endforeach; ?>
+	<button type="submit">Submit</button>
+</form>
