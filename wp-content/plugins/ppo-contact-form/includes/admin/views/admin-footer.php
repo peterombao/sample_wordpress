@@ -1,6 +1,7 @@
 <?php foreach($fields as $field): ?>
 	<div id="cf-<?php echo $field['type']; ?>" class="hidden">
 		<form class="cf-add-el" method="post">
+			<input type="hidden" name="ID"/>
 			<input type="hidden" name="form_type" value="<?php echo $field['type']; ?>" />
 		<?php if(in_array('form_label', $field['options'])): ?>
 			<div>
@@ -33,7 +34,11 @@
 		<?php if(in_array('default_value', $field['options'])): ?>
 			<div>
 				<label>Default Value: </label>
-				<input name="default_value" type="text" />
+				<?php if($field['type'] == 'radio' || $field['type'] == 'checkbox' || $field['type'] == 'textarea'): ?>
+					<textarea name="default_value"></textarea>
+				<?php else: ?>
+					<input name="default_value" type="<?php echo $field['type']; ?>" />
+				<?php endif; ?>
 			</div>
 		<?php endif; ?>
 		

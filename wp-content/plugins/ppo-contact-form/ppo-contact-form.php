@@ -115,7 +115,7 @@ add_action( 'admin_enqueue_scripts', 'admin_scripts_ppo_contact_form' );
 
 function fields_ppo_contact_form(){
 	$fields = array(
-		array(
+		'text' => array(
 			'type' => 'text',
 			'label' => 'Text',
 			'options' => array(
@@ -128,7 +128,7 @@ function fields_ppo_contact_form(){
 				'form_required'
 			)
 		),
-		array(
+		'email' => array(
 			'type' => 'email',
 			'label' => 'Email',
 			'options' => array(
@@ -141,7 +141,7 @@ function fields_ppo_contact_form(){
 				'form_required'
 			)
 		),
-		array(
+		'textarea' => array(
 			'type' => 'textarea',
 			'label' => 'Textarea',
 			'options' => array(
@@ -205,7 +205,7 @@ function wp_ajax_add_element_ppo_contact_form() {
 			)
 		);
 	}
-	
+
 	if(!is_wp_error($post_id)){
 		foreach($_POST['form'] as $key => $value){
 			update_post_meta($post_id, $key, $value);
@@ -231,10 +231,45 @@ function wp_ajax_add_element_ppo_contact_form() {
 			)
 		);
 	}
+
 	die();
 }
 add_action( 'wp_ajax_add_element_ppo_contact_form', 'wp_ajax_add_element_ppo_contact_form' );
 add_action( 'wp_ajax_nopriv_add_element_ppo_contact_form', 'wp_ajax_add_element_ppo_contact_form' );
+
+function wp_ajax_edit_element_ppo_contact_form() {
+	$post_id = $_POST['ID'];
+	foreach($_POST['form'] as $key => $value){
+		update_post_meta($post_id, $key, $value);
+	}
+	echo 'success';
+	die();
+}
+add_action( 'wp_ajax_edit_element_ppo_contact_form', 'wp_ajax_edit_element_ppo_contact_form' );
+add_action( 'wp_ajax_nopriv_edit_element_ppo_contact_form', 'wp_ajax_edit_element_ppo_contact_form' );
+
+
+function wp_ajax_get_element_ppo_contact_form() {
+	$field = get_post($_POST['id']);
+	if(!is_wp_error($field)){
+		$post_meta = get_post_meta($_POST['id']);
+		wp_send_json_success( 
+			array(
+				'post' => $field,
+				'post_meta' => $post_meta
+			)
+		);
+	}else{
+		wp_send_json_error(
+			array(
+				'error' => $field->get_error_message() 
+			)
+		);
+	}
+	die();
+}
+add_action( 'wp_ajax_get_element_ppo_contact_form', 'wp_ajax_get_element_ppo_contact_form' );
+add_action( 'wp_ajax_nopriv_get_element_ppo_contact_form', 'wp_ajax_get_element_ppo_contact_form' );
 
 
 function wp_ajax_sorting_element_ppo_contact_form(){

@@ -1,24 +1,38 @@
 jQuery( function ( $ ) {
 	$('.cf-add-el').on('submit', function(){
 		var thisForm = $(this);
-		var data         = {
-            action:   'add_element_ppo_contact_form',
-            post_parent: ppo_contact_form.post_id,
-			dataType: 'json'
-        };
+		var data = {};
+		var thisFormData = thisForm.serializeArray();
 		data.form = {};
-		$.each(thisForm.serializeArray(), function(i, field) {
-			data.form[field.name] = field.value;
-		});
-        $.post( ajaxurl, data, function( response ) {
-			if ( response.success ) {
-				$( '.table-cf-el tbody' ).prepend( response.data.html );
-				thisForm[0].reset();
-				tb_remove();
+		$.each(thisFormData, function(i, field) {
+			if(field.name != 'ID'){
+				data.form[field.name] = field.value;
 			}else{
-				console.log(response);
+				data.ID = field.value;
 			}
-        });
+		});
+		if(data.ID == ''){
+			data.action = 'add_element_ppo_contact_form';
+			data.post_parent = ppo_contact_form.post_id;
+			data.dataType = 'json';
+			$.post( ajaxurl, data, function( response ) {
+				if ( response.success ) {
+					$( '.table-cf-el tbody' ).prepend( response.data.html );
+					thisForm[0].reset();
+					tb_remove();
+				}else{
+					console.log(response);
+				}
+			});
+		}else{
+			data.action = 'edit_element_ppo_contact_form';
+			$.post( ajaxurl, data, function( response ) {
+				var thisRow = $( '.table-cf-el tbody' ).find('[type=hidden][value=' + data.ID + ']').closest('tr');
+				thisRow.find('td:nth-child(1) a').text(data.form.form_label);
+				thisRow.find('td:nth-child(2)').text(data.form.form_name);
+				tb_remove();
+			});
+		}
 		return false;
 	});
 	
@@ -67,4 +81,30 @@ jQuery( function ( $ ) {
             });
         }
     });
+
+	$('.btn-modal-field').click(function(){
+		var type = $(this).data('field_type');
+		$('#cf-' + type +' .cf-add-el [name=ID]').val('');
+		$('#cf-' + type +' .cf-add-el')[0].reset();
+	});
+	
+	$('.table-cf-el td a').click(function(){
+		var title = $(this).attr('title');
+		var href = $(this).attr('href');
+		var id = $(this).data('post_id');
+		var type = $(this).data('field_type');
+		$('#cf-' + type +' .cf-add-el [name=ID]').val('');
+		$('#cf-' + type +' .cf-add-el')[0].reset();
+		$.post( ajaxurl, { action: 'get_element_ppo_contact_form', id: id }, function(response){
+			$('#cf-' + type +' .cf-add-el [name=ID]').val(response.data.post.ID);
+			$.each(response.data.post_meta, function(index, value){
+				if($('#cf-' + type +' .cf-add-el [name=' + index + ']').length){
+					$('#cf-' + type +' .cf-add-el [name=' + index + ']').val(value[0])
+				}
+			});
+			tb_show(title, href, false);
+		});
+		
+		return false;
+	});
 });
