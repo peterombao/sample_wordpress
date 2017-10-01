@@ -112,6 +112,12 @@ function admin_scripts_ppo_contact_form(){
 }
 add_action( 'admin_enqueue_scripts', 'admin_scripts_ppo_contact_form' );
 
+function wp_scripts_ppo_contact_form(){
+	wp_register_script( 'recaptcha', 'https://www.google.com/recaptcha/api.js');
+	wp_enqueue_script( 'recaptcha' );
+}
+add_action( 'wp_enqueue_scripts', 'wp_scripts_ppo_contact_form' );
+
 
 function fields_ppo_contact_form(){
 	$fields = array(
@@ -152,6 +158,14 @@ function fields_ppo_contact_form(){
 				'id_attr',
 				'class_attr',
 				'form_required'
+			)
+		),
+		'recaptcha' => array(
+			'type' => 'recaptcha',
+			'label' => 'reCAPTCHA',
+			'options' => array(
+				'sitekey',
+				'secretkey'
 			)
 		)
 	);
@@ -324,7 +338,31 @@ add_action('ppo_form_element', 'render_element_ppo_contact_form');
 
 
 function admin_post_contact_us() {
-    print_r($_POST);
+	if(isset($_POST['g-recaptcha-response'])){
+		$secret = '6Lcz_S4UAAAAAEDz2T0FD7PPohD17wHhcHmR38k0';
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+
+		$post_data = array(
+			'secret' => $secret,
+			'response' => $_POST['g-recaptcha-response']
+		);
+
+		$verify = curl_init();
+		curl_setopt($verify, CURLOPT_URL, $url);
+		curl_setopt($verify, CURLOPT_POST, true);
+		curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query($post_data));
+		curl_setopt($verify, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
+		$response = curl_exec($verify);
+		$result = json_decode($response);
+		if ($result->success) {
+			echo 'success';
+		}else{
+			echo 'not success';
+		}
+	}else{
+		print_r($_POST);
+	}
 }
 add_action( 'admin_post_contact_us', 'admin_post_contact_us' );
 add_action( 'admin_post_nopriv_contact_us', 'admin_post_contact_us' );

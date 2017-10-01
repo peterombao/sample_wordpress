@@ -20,8 +20,6 @@ jQuery( function ( $ ) {
 					$( '.table-cf-el tbody' ).prepend( response.data.html );
 					thisForm[0].reset();
 					tb_remove();
-				}else{
-					console.log(response);
 				}
 			});
 		}else{

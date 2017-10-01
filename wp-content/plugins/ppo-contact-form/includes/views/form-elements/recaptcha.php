@@ -1,0 +1,1 @@
+<div class="g-recaptcha" data-sitekey="<?php echo $contact_form_element->sitekey; ?>"></div>

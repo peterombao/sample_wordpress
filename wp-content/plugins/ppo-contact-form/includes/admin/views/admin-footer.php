@@ -63,6 +63,20 @@
 			</div>
 		<?php endif; ?>
 		
+		<?php if(in_array('sitekey', $field['options'])): ?>
+			<div>
+				<label>Site key: </label>
+				<input name="sitekey" type="text"/>
+			</div>
+		<?php endif; ?>
+		
+		<?php if(in_array('secretkey', $field['options'])): ?>
+			<div>
+				<label>Secret key: </label>
+				<input name="secretkey" type="text"/>
+			</div>
+		<?php endif; ?>
+		
 			<div>
 				<button type="submit">Add</button>
 			</div>
